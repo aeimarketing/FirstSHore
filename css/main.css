@@ -1,0 +1,86 @@
+body{
+    background-color:#fff;
+    color:#31598C;
+    margin:0 0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#logo_wrap{
+    padding:10px 0 0 0;
+    width:100%;
+    text-align:center;
+    background:#fff;
+}
+#logo_wrap img{
+    margin:0 auto;
+
+}
+div.info{
+    display:block;
+    width:90%;
+    padding:0 0;
+    margin:0 auto;
+    max-width:600px;
+}
+.buttons_wrapper{
+    display:block;
+    width:80%;
+    padding:10px 0 10px 0;
+    margin:0 auto;
+    max-width:600px;
+
+}
+.buttons_wrapper .button_wrap{
+    width:50%;
+    float:left;
+
+}
+.buttons_wrapper .button_wrap a{
+    color:#31598C;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    background:#fff;
+    width:80px;
+    height:80px;
+    margin:0 auto;
+    display:block;
+    padding:10px;
+    border-radius:80px;
+    overflow:hidden;
+}
+.buttons_wrapper .button_wrap a img{
+    width:50px;
+}
+.buttons_wrapper .button_wrap a span{
+    display:block;
+    font-size:10px;
+    text-transform:uppercase;
+    font-weight: bolder;
+
+}
+/* Portrait */
+@media screen and (orientation:portrait) {
+    /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+    /* Landscape styles here */
+    #logo_wrap{
+        padding:10px 0 0 0;
+        width:100%;
+        text-align:center;
+        background:#fff;
+    }
+    .buttons_wrapper .button_wrap{
+        width:33%;
+    }
+    .buttons_wrapper .button_wrap.left{
+       
+
+    }
+    .buttons_wrapper .button_wrap.right{
+        
+
+    }
+}

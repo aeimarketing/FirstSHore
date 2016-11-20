@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.aei.firstshore.com" 
+        version="1.1.0" 
+        xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>FirstShore</name>
+    <description>FirstShore is the gateway for finding heritage destinations catered towards your interests by providing the tool to navigate your journey.
+        First Shore has Colonial, Cultural, Ecological, Historic, Reconstruction, Civil War and Revolutionary War sites on the map and a wealth of information and links to provide you with specific details about each place.
+    </description>
+    <author href="http://aeimarketing.com" email="developers@aeimarketing.com">AEI Marketing</author>
+
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <access origin="*"  subdomains="true" />
+
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+</widget>
