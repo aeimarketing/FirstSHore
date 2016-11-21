@@ -9,19 +9,16 @@
     </description>
     <author href="http://aeimarketing.com" email="developers@aeimarketing.com">AEI Marketing</author>
     <preference name="phonegap-version" value="cli-6.3.0" />
-    <plugin name="cordova-plugin-whitelist" version="1"/>
+    <plugin name="cordova-plugin-whitelist" />
     <content src="index.html" />
 
-<plugin name="InAppBrowser" value="cordova-plugin-InAppBrowser" />
+<plugin name="cordova-plugin-inappbrowser"  />
 <access origin="*" browserOnly="true"/>
     <allow-navigation href="*" />
     
     <!-- Allow links to web pages to open in a browser -->
     <allow-intent href="*" />
 
-<feature name="InAppBrowser">
-    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-</feature>
     <icon platform="android" qualifier="ldpi" src="img/icons/android/icon-36-ldpi.png"/>
     <icon platform="android" qualifier="mdpi" src="img/icons/android/icon-48-mdpi.png"/>
     <icon platform="android" qualifier="hdpi" src="img/icons/android/icon-72-hdpi.png"/>
