@@ -12,13 +12,12 @@
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <content src="index.html" />
 
-    <access origin="*"  subdomains="true" />
-
+<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+<access origin="*" browserOnly="true"/>
     <allow-navigation href="*" />
     
     <!-- Allow links to web pages to open in a browser -->
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    <allow-intent href="*" />
 
 <feature name="InAppBrowser">
     <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
