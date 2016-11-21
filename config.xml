@@ -20,9 +20,9 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
 
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.InAppBrowser" />
-    </feature>
+<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+</feature>
     <icon platform="android" qualifier="ldpi" src="img/icons/android/icon-36-ldpi.png"/>
     <icon platform="android" qualifier="mdpi" src="img/icons/android/icon-48-mdpi.png"/>
     <icon platform="android" qualifier="hdpi" src="img/icons/android/icon-72-hdpi.png"/>
