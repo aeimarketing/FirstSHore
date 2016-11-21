@@ -8,15 +8,17 @@
         First Shore has Colonial, Cultural, Ecological, Historic, Reconstruction, Civil War and Revolutionary War sites on the map and a wealth of information and links to provide you with specific details about each place.
     </description>
     <author href="http://aeimarketing.com" email="developers@aeimarketing.com">AEI Marketing</author>
-
-    <content src="index.html" />
-    <access origin="*" />
     <preference name="phonegap-version" value="cli-6.3.0" />
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+    <content src="index.html" />
+
     <access origin="*"  subdomains="true" />
 
     <allow-navigation href="*" />
     
-    <allow-intent href="*" />
+    <!-- Allow links to web pages to open in a browser -->
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
 
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.InAppBrowser" />
