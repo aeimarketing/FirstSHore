@@ -12,7 +12,7 @@
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <content src="index.html" />
 
-<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+<plugin name="InAppBrowser" value="cordova-plugin-InAppBrowser" />
 <access origin="*" browserOnly="true"/>
     <allow-navigation href="*" />
     
