@@ -15,6 +15,7 @@
     <access origin="*"  subdomains="true" />
 
     <allow-navigation href="*" />
+    
     <allow-intent href="*" />
 
     <feature name="InAppBrowser">
