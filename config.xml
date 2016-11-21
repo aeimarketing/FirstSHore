@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.aei.firstshore.com" 
         version="1.1.0" 
-        xmlns="http://www.w3.org/ns/widgets" 
-        xmlns:gap="http://phonegap.com/ns/1.0">
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>FirstShore</name>
     <description>FirstShore is the gateway for finding heritage destinations catered towards your interests by providing the tool to navigate your journey.
         First Shore has Colonial, Cultural, Ecological, Historic, Reconstruction, Civil War and Revolutionary War sites on the map and a wealth of information and links to provide you with specific details about each place.
@@ -12,9 +12,22 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="phonegap-version" value="cli-6.3.0" />
-      <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.InAppBrowser" />
-    </feature>
+    <access origin="*"  subdomains="true" />
+
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+    </feature>
+    <icon platform="android" qualifier="ldpi" src="res/icons/android/icon-36-ldpi.png"/>
+    <icon platform="android" qualifier="mdpi" src="res/icons/android/icon-48-mdpi.png"/>
+    <icon platform="android" qualifier="hdpi" src="res/icons/android/icon-72-hdpi.png"/>
+    <icon platform="android" qualifier="xhdpi" src="res/icons/android/icon-96-xhdpi.png"/>
+    <icon platform="android" qualifier="xxhdpi" src="res/icons/android/icon-144-xxhdpi.png"/>
+    <icon platform="android" qualifier="xxxhdpi" src="res/icons/android/icon-192-xxxhdpi.png"/>
+
+
 </widget>
