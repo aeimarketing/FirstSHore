@@ -16,9 +16,7 @@
 
     <allow-navigation href="*" />
     <allow-intent href="*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
+
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.InAppBrowser" />
     </feature>
