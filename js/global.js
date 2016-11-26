@@ -11,7 +11,7 @@ function openLink(link_url, url_bar) {
     }
     var ref = window.open(link_url, target, bar);
     ref.addEventListener('loadstart', function (event) {
-        if (event.url.match("mobile/close")) {
+        if (event.url.match("menu")) {
             ref.close();
         }
     });
