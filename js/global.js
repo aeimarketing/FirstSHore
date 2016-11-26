@@ -13,7 +13,8 @@ function openLink(link_url, url_bar) {
 
     var ref = window.open(link_url, target, bar);
     ref.addEventListener('loadstop', function (event) {
-        if (event.url.match("mobile/close")) {
+        alert(event.url);
+        if (event.url==("https://firstshore.org/mobile/close")) {
             ref.close();
         }
     });
