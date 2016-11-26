@@ -17,6 +17,7 @@ function openLink(link_url, url_bar) {
 
     var ref = cordova.InAppBrowser.open(link_url, target, bar);
      ref.addEventListener('loadstart', function(event) {
+         alert(event.url);
      if (event.url.match("mobile/close")) {
          ref.close();
      }
