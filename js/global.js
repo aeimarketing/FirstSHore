@@ -10,17 +10,13 @@ function openLink(link_url, url_bar) {
         bar = 'location=yes';
         target = '_system';
     }
- 
+
     var ref = window.open(link_url, target, bar);
-    ref.addEventListener('loadstart', function (event) {
-        if (event.url.match("https://firstshore.org/menu")) {
-            //alert(event.url);
-            console.log(event);
-            //event.preventDefault();
+    ref.addEventListener('loadstop', function (event) {
+        if (event.url.match("mobile/close")) {
             ref.close();
         }
     });
-    return false;
 
 }
 
