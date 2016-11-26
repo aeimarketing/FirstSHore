@@ -4,7 +4,7 @@ function onDeviceReady() {
     window.open = cordova.InAppBrowser.open;
 }
 function openLink(link_url, url_bar) {
-    var bar = 'location=no,clearsessioncache=yes';
+    var bar = 'location=no,clearsessioncache=yes,clearcache=yes';
     var target = '_self';
     if (url_bar) {
         bar = 'location=yes';
