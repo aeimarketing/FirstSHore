@@ -15,6 +15,7 @@ function openLink(link_url, url_bar) {
     ref.addEventListener('loadstart', function (event) {
         if (event.url.match("https://firstshore.org/menu")) {
             //alert(event.url);
+            console.log(event);
             //event.preventDefault();
             ref.close();
         }
