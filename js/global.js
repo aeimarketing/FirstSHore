@@ -10,8 +10,10 @@ function openLink(link_url, url_bar) {
         bar = 'location=yes';
         target = '_system';
     }
+    alert(link_url+': '+target+': '+bar);
     var ref = window.open(link_url, target, bar);
     ref.addEventListener('loadstart', function (event) {
+        alert ('here');
         if (event.url.match("menu")) {
             ref.close();
         }
