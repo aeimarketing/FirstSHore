@@ -14,8 +14,7 @@
     <plugin name="cordova-plugin-geolocation"  />
     <plugin name="cordova-plugin-device"  />
     <content src="index.html" />
-<uses-permission android:name="android.permission.INTERNET" />
-<feature name="http://api.phonegap.com/1.0/network"/>
+
 
     <access origin="*" />
     
